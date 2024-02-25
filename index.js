@@ -26,7 +26,7 @@ app.all("*" , (req , res , next) => {
 })
 
 
-mongoose.connect(process.env.URL2)
+mongoose.connect("mongodb+srv://RamiAhmed123:RamiAhmed123@rami.fdj8pto.mongodb.net/?retryWrites=true&w=majority&appName=Rami")
 .then(() => {
     console.log(`
     ###########################Conectes###########################
